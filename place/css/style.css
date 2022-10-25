@@ -1,0 +1,163 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+
+}
+body{
+    background: url('../20401503.jpg');
+    background-size: cover;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+
+}
+ul{
+
+	float: left;
+	list-style-type: none;
+	top: 850px;
+    right:880px;
+     position: absolute;
+	
+	
+	
+
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border:1px solid #fff;
+	padding:9px 9px;
+	color: #fff;
+	text-decoration:none;
+    transition: 0.6s ease;
+	
+}
+ul li a:hover{
+	background-color:#fff;
+	color: #000;
+	
+
+}
+
+ul li .active a{
+	background-color:#fff;
+	color: #000;
+
+
+
+}
+
+
+img{
+    position:absolute;
+	float:right;
+	height: 456px;
+	width:456px;
+	top: 28%;
+	right: 65%;
+    border-radius: 30%;
+     border: 5px outset #5d6d7c;
+
+
+
+
+}
+
+
+
+.img1 img{
+    position:absolute;
+	float:left;
+	height: 55px;
+	width:55px;
+	top: 50%;
+	right: 38%;
+    border-radius: 50%;
+    border: 5px outset #5d6d7c;
+    
+}
+.img2 img{
+    position:absolute;
+	float:left;
+	height: 55px;
+	width:55px;
+	top: 68%;
+	right: 26%;
+    border-radius: 50%;
+    border: 5px outset #5d6d7c;
+    
+}
+
+
+
+    
+h1{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 720px;
+    top: 100px;
+    
+	float:right;
+    border: 5px outset #5d6d7c;
+    border-radius: 5px;
+    color: #FFFF;
+    background-color:#00203FFF;
+
+}
+p{
+    margin: 50px;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    position: absolute;
+	left:55%;
+    top: 25%;
+    
+    border-width: 5px;
+    border: 5px outset #5d6d7c;
+    border-radius: 8px;
+    padding: 5px;
+    width: 500px;
+    height: 250px;
+    background-color:#a1aab3;
+   
+}
+p1{
+    margin: 50px;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    position: absolute;
+	left: 35%;
+    top: 45%;
+    
+    border-width: 5px;
+    border: 5px outset #5d6d7c;
+    border-radius: 8px;
+    padding: 5px;
+    width: 500px;
+    height: 250px;
+    background-color:#a1aab3;
+
+}
+
+   
+
+
+
+
